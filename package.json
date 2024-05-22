@@ -1,0 +1,20 @@
+{
+  "name": "control.com",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "rollup": "rollup ./src/scripts/modules/input.js --file ./src/scripts/main.js --format cjs",
+    "rollupp": "rollup --watch --config",
+    "sass": "sass --watch ./src/styles/modules/input.scss ./src/styles/main.css"
+  },
+  "devDependencies": {
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "sass": "^1.77.2"
+  }
+}
